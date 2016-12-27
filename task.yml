@@ -12,7 +12,7 @@ inputs:
 run:
   path: sh
   args: 
-      -exc
+      - -exc
       - | 
         cd worker
         gcc -Wall -O2 hola.c -o hola
