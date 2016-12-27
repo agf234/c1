@@ -1,13 +1,10 @@
-jobs:
-- name: compile c1
-  plan:
-  - task: compile-hello
-    config:
-      platform: linux
-      image_resource:
-        type: docker-image
-        source: {repository: gcc}
-      run:
-        path: make
-        args: ["hola.c"]
+- task: compile-hello
+  config:
+    platform: linux
+    image_resource:
+      type: docker-image
+      source: {repository: gcc}
+    run:
+      path: make
+      args: ["hola.c"]
 
