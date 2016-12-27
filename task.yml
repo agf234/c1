@@ -5,6 +5,7 @@ image_resource:
   type: docker-image
   source: 
     repository: gcc
+    version: 4.2.4
     
 inputs:
   - name: worker
