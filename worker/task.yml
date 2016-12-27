@@ -1,0 +1,7 @@
+jobs:
+- name: smoke-tests
+  build_logs_to_retain: 100
+  plan:
+  - get: 10m
+  - task: smoke-tests
+    # ...
