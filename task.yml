@@ -7,5 +7,5 @@ image_resource:
     repository: gcc
     
 run:
-  path: make
-  args: ["hola.c"]
+  path: gcc
+  args: ["-Wall ", "-O2 ", "hola.c"]
