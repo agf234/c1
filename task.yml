@@ -7,7 +7,7 @@ image_resource:
     repository: gcc
     
 inputs:
-  - name: go-controller
+  - name: controller-go
 
 run:
   path: make
