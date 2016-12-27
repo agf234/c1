@@ -6,6 +6,9 @@ image_resource:
   source: 
     repository: gcc
     
+inputs:
+  - name: worker
+  
 run:
   path: gcc
   args: ["-Wall ", "-O2 ", "hola.c"]
