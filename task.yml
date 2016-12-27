@@ -10,5 +10,7 @@ inputs:
   - name: worker
   
 run:
-  path: gcc
-  args: ["-Wall ", "-O2 ", "hola.c"]
+  path: sh
+  args: -exc
+  args: | 
+        gcc -Wall -O2 hola.c
