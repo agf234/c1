@@ -6,9 +6,6 @@ image_resource:
   source: 
     repository: gcc
     
-inputs:
-  - name: controller-go
-
 run:
   path: make
   args: ["hola.c"]
