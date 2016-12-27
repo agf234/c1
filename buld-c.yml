@@ -15,5 +15,5 @@ run:
   args: 
       - -exc
       - | 
-        cd worker
+        cd c-code
         gcc -Wall -O2 hola.c -o hola
