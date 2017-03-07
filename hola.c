@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-vintoid main(int argc, char *argv[] ) {
+int main(int argc, char *argv[] ) {
 
   int i;
 
